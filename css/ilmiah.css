@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.competition-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 90px 0 0;
+}
+
+.accordion-content p {
+    display: flex;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.accordion-content .label {
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.accordion-content .content {
+    flex: 1;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.competition-item {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.competition-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.competition-details {
+    flex: 1;
+    position: relative;
+}
+
+.competition-title {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+
+.competition-date {
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.accordion {
+    margin-top: 10px;
+}
+
+.accordion-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.accordion-btn:hover {
+    background-color: #0056b3;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    margin-top: 10px;
+}
+
+.accordion-content p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.apply-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+    background-color: #218838;
+}
